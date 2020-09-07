@@ -270,5 +270,354 @@ if (message.content === prefix+'fast') {
       }
 });
 //copyright © Angry Black 2020.//❦Angry Black❦
+//ngry Black)POULAZ
+
+client.on('message', message => {
+
+if (message.content === prefix+'slow') {
+
+        let letters = "AaBbCcDFfGgHh-MmNnOoP-pQqRrSsT-©AngryBlack-YT-tUuVvWw-XxYyZz0123456789".split("");
+
+        let spaces = " ".repeat(10);
+
+        let last = "";
+
+        let messages = 0;
+
+ 
+
+        setInterval(() => {
+
+            let str = "";
+
+            let num = Math.floor(Math.random() * 10);
+
+            for(let i = 0; i < num; i++) {
+
+                str += letters[Math.floor(Math.random() * letters.length)]; 
+
+ 
+
+                if(i === num - 1) {
+
+                    if(last === "") {
+
+                        messages += 1;
+
+                        last = `${str} ${spaces.slice(str.length + 1)}`;
+
+                        return message.channel.send(`${str} ${spaces.slice(str.length + 1)}${messages}`);
+
+                    } else {
+
+                        messages += 1;
+
+                        let spaced = `${str} ${spaces.slice(str.length + 1)}${messages}`;
+
+                        last = spaced;
+
+                        return message.channel.send(spaced);
+
+                    }
+
+                }
+
+            }
+
+        }, 6000);
+
+}
+
+}); 
+
+client2.on('message', message => {
+
+if (message.content === prefix+'slow') {
+
+        let letters = "AaBbCcDFfGgHh-MmNnOoP-pQqRrSsT-©AngryBlack-YT-tUuVvWw-XxYyZz0123456789".split("");
+
+        let spaces = " ".repeat(10);
+
+        let last = "";
+
+        let messages = 0;
+
+ 
+
+        setInterval(() => {
+
+            let str = "";
+
+            let num = Math.floor(Math.random() * 10);
+
+            for(let i = 0; i < num; i++) {
+
+                str += letters[Math.floor(Math.random() * letters.length)]; 
+
+ 
+
+                if(i === num - 1) {
+
+                    if(last === "") {
+
+                        messages += 1;
+
+                        last = `${str} ${spaces.slice(str.length + 1)}`;
+
+                        return message.channel.send(`${str} ${spaces.slice(str.length + 1)}${messages}`);
+
+                    } else {
+
+                        messages += 1;
+
+                        let spaced = `${str} ${spaces.slice(str.length + 1)}${messages}`;
+
+                        last = spaced;
+
+                        return message.channel.send(spaced);
+
+                    }
+
+                }
+
+            }
+
+        }, 6000);
+
+}
+
+}); 
+
+client3.on('message', message => {
+
+if (message.content === prefix+'slow') {
+
+        let letters = "AaBbCcDFfGgHh-MmNnOoP-pQqRrSsT-©AngryBlack-YT-tUuVvWw-XxYyZz0123456789".split("");
+
+        let spaces = " ".repeat(10);
+
+        let last = "";
+
+        let messages = 0;
+
+ 
+
+        setInterval(() => {
+
+            let str = "";
+
+            let num = Math.floor(Math.random() * 10);
+
+            for(let i = 0; i < num; i++) {
+
+                str += letters[Math.floor(Math.random() * letters.length)]; 
+
+ 
+
+                if(i === num - 1) {
+
+                    if(last === "") {
+
+                        messages += 1;
+
+                        last = `${str} ${spaces.slice(str.length + 1)}`;
+
+                        return message.channel.send(`${str} ${spaces.slice(str.length + 1)}${messages}`);
+
+                    } else {
+
+                        messages += 1;
+
+                        let spaced = `${str} ${spaces.slice(str.length + 1)}${messages}`;
+
+                        last = spaced;
+
+                        return message.channel.send(spaced);
+
+                    }
+
+                }
+
+            }
+
+        }, 6000);
+
+}
+
+}); 
+
+client4.on('message', message => {
+
+if (message.content === prefix+'slow') {
+
+        let letters = "AaBbCcDFfGgHh-MmNnOoP-pQqRrSsT-©AngryBlack-YT-tUuVvWw-XxYyZz0123456789".split("");
+
+        let spaces = " ".repeat(10);
+
+        let last = "";
+
+        let messages = 0;
+
+ 
+
+        setInterval(() => {
+
+            let str = "";
+
+            let num = Math.floor(Math.random() * 10);
+
+            for(let i = 0; i < num; i++) {
+
+                str += letters[Math.floor(Math.random() * letters.length)]; 
+
+ 
+
+                if(i === num - 1) {
+
+                    if(last === "") {
+
+                        messages += 1;
+
+                        last = `${str} ${spaces.slice(str.length + 1)}`;
+
+                        return message.channel.send(`${str} ${spaces.slice(str.length + 1)}${messages}`);
+
+                    } else {
+
+                        messages += 1;
+
+                        let spaced = `${str} ${spaces.slice(str.length + 1)}${messages}`;
+
+                        last = spaced;
+
+                        return message.channel.send(spaced);
+
+                    }
+
+                }
+
+            }
+
+        }, 6000);
+
+}
+
+}); 
+
+client5.on('message', message => {
+
+if (message.content === prefix+'slow') {
+
+        let letters = "AaBbCcDFfGgHh-MmNnOoP-pQqRrSsT-©AngryBlack-YT-tUuVvWw-XxYyZz0123456789".split("");
+
+        let spaces = " ".repeat(10);
+
+        let last = "";
+
+        let messages = 0;
+
+ 
+
+        setInterval(() => {
+
+            let str = "";
+
+            let num = Math.floor(Math.random() * 10);
+
+            for(let i = 0; i < num; i++) {
+
+                str += letters[Math.floor(Math.random() * letters.length)]; 
+
+ 
+
+                if(i === num - 1) {
+
+                    if(last === "") {
+
+                        messages += 1;
+
+                        last = `${str} ${spaces.slice(str.length + 1)}`;
+
+                        return message.channel.send(`${str} ${spaces.slice(str.length + 1)}${messages}`);
+
+                    } else {
+
+                        messages += 1;
+
+                        let spaced = `${str} ${spaces.slice(str.length + 1)}${messages}`;
+
+                        last = spaced;
+
+                        return message.channel.send(spaced);
+
+                    }
+
+                }
+
+            }
+
+        }, 6000);
+
+}
+
+}); 
+
+client6.on('message', message => {
+
+if (message.content === prefix+'slow') {
+
+        let letters = "AaBbCcDFfGgHh-MmNnOoP-pQqRrSsT-©AngryBlack-YT-tUuVvWw-XxYyZz0123456789".split("");
+
+        let spaces = " ".repeat(10);
+
+        let last = "";
+
+        let messages = 0;
+
+ 
+
+        setInterval(() => {
+
+            let str = "";
+
+            let num = Math.floor(Math.random() * 10);
+
+            for(let i = 0; i < num; i++) {
+
+                str += letters[Math.floor(Math.random() * letters.length)]; 
+
+ 
+
+                if(i === num - 1) {
+
+                    if(last === "") {
+
+                        messages += 1;
+
+                        last = `${str} ${spaces.slice(str.length + 1)}`;
+
+                        return message.channel.send(`${str} ${spaces.slice(str.length + 1)}${messages}`);
+
+                    } else {
+
+                        messages += 1;
+
+                        let spaced = `${str} ${spaces.slice(str.length + 1)}${messages}`;
+
+                        last = spaced;
+
+                        return message.channel.send(spaced);
+
+                    }
+
+                }
+
+            }
+
+        }, 6000);
+
+}
+
+
 
 //✠▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ஜ☢❦۞❦☢ஜ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬✠//BY: VZX (Angry Black)//POULAZ
